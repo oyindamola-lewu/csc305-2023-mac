@@ -18,4 +18,8 @@ fn main() {
     let arr = [2.5, 7.0, 3.0];
     println!("The multiplication of {:?} is {}", arr, multiplier(&arr));
 
+    hello_world_lib::run();
+    hello_world_lib::run2();
+    hello_world_lib::run3();
+
 }
