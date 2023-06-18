@@ -257,7 +257,7 @@ pub fn run() {
  //We are going to use a smat pointer to put it in the heap
  // The smart pointer is called Box
  pub fn run2() {
-    let mut rectangle1 = Box::new(Rect2 {
+    let rectangle1 = Box::new(Rect2 {
         length: 12f32,
         width: 9f32,
         name: "Rectangle 1".to_owned(),
